@@ -1,0 +1,35 @@
+{
+  "name": "fetchDataPostgresql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodejs ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "debug": "~0.7.4",
+    "express": "^4.16.4",
+    "jade": "~1.3.0",
+    "morgan": "^1.9.1",
+    "pg": "^7.8.0",
+    "static-favicon": "~1.0.0",
+    "dust": "*",
+    "dustjs-helpers": "*",
+    "dustjs-linkedin": "*",
+    "consolidate": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikerosillo/fetchDataPostgresql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikerosillo/fetchDataPostgresql/issues"
+  },
+  "homepage": "https://github.com/mikerosillo/fetchDataPostgresql#readme"
+}

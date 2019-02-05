@@ -1,0 +1,12 @@
+{>"layout" /}
+
+{<body}
+   {#project}
+       <div class="well">
+         <h4>{epic} <button class="btn btn-default pull-right">Views</
+         button></h4>
+
+
+
+   {/project}
+{/body}
