@@ -1,12 +1,50 @@
 {>"layout" /}
 
 {<body}
-   {#project}
-       <div class="well">
-         <h4>{epic} <button class="btn btn-default pull-right">Views</
-         button></h4>
+   {#jiralogs3}
+       <div class="container">
+          <div> 
+             <h4>Issue Key = {issuekey} </h4>
+          </div>
+          <div> 
+               <h4>Issue Summary = {issuesummary} </h4>
+          </div>
+          <div> 
+               <h4> Hours = {hours} </h4>
+          </div>
+          <div> 
+               <h4> Work Date = {workdate} </h4>
+          </div>
+          <div> 
+               <h4> User Name = {username} </h4>
+          </div>
+          <div> 
+               <h4> Full Name = {fullname} </h4>
+          </div>
+          <div> 
+               <h4> Activity Name = {activityname} </h4>
+          </div>
+          <div> 
+               <h4> Issue Type = {issuetype} </h4>
+          </div>
+          <div> 
+               <h4> Issue Status = {issuestatus} </h4>
+          </div>
+          <div> 
+               <h4> Project Key = {projectkey} </h4>
+          </div>
+          <div> 
+               <h4> Project Name = {projectname} </h4>
+          </div>
+       </div>
+     {/jiralogs3}
+  {/body}
+         
+             
+                   
+                
+               
+         
 
 
 
-   {/project}
-{/body}

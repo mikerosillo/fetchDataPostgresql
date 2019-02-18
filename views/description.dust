@@ -1,14 +1,13 @@
 {>"layout" /}
 
 {<body}
-   {#project}
-       <div class="well">
-
-              <h4>{description} <button class="btn btn-default pull-right">Views</
-             button></h4>
-      </div>
-
-
-
-   {/project}
+   {#jiralogs3}
+       <div class="container">
+          <h4>{issuesummary} 
+             <button class="btn btn-default pull-right">
+                Views
+             </button>
+          </h4>
+       </div>
+   {/jiralogs3}
 {/body}

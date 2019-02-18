@@ -20,13 +20,13 @@ router.get('/', function(req, res){
     if(err) {
       return console.error('error fetching client from pool' + err);
     }else{
-    client.query('SELECT * FROM project WHERE sprint = 5', function(err, result) {
+    client.query('SELECT * FROM jiralogs3 WHERE id = 500', function(err, result) {
 
       if(err){
         return console.error('error runing query', err);
         res.status(400).send(err);
       }
-      res.render('index', {project: result.rows});
+      res.render('index', { jiralogs3 : result.rows });
         done();
 
     });
@@ -39,13 +39,13 @@ router.get('/description', function(req, res){
     if(err) {
       return console.error('error fetching client from pool' + err);
     }else{
-    client.query('SELECT * FROM project WHERE sprint = 5', function(err, result) {
+    client.query('SELECT * FROM jiralogs3 WHERE id = 10', function(err, result) {
 
       if(err){
         return console.error('error runing query', err);
         res.status(400).send(err);
       }
-      res.render('index', {project: result.rows});
+      res.render('index', {jiralogs3: result.rows});
         done();
 
     });
