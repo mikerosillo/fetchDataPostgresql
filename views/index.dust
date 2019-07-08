@@ -1,21 +1,21 @@
 {>"layout" /}
 
 {<body}
-   {#jiralogs3}
+   {#app_tokens}
        <div class="container">
           <div> 
-             <h4>Issue Key = {issuekey} </h4>
+               <h4> id = {id} </h4>
           </div>
           <div> 
-               <h4>Issue Summary = {issuesummary} </h4>
+               <h4> user_id = {user_id} </h4>
           </div>
           <div> 
-               <h4> Hours = {hours} </h4>
+             <h4>token = {token} </h4>
           </div>
           <div> 
-               <h4> Work Date = {workdate} </h4>
+               <h4>secret = {secret} </h4>
           </div>
-          <div> 
+          <!-- <div> 
                <h4> User Name = {username} </h4>
           </div>
           <div> 
@@ -35,9 +35,9 @@
           </div>
           <div> 
                <h4> Project Name = {projectname} </h4>
-          </div>
+          </div> -->
        </div>
-     {/jiralogs3}
+     {/app_tokens}
   {/body}
          
              

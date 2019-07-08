@@ -1,13 +1,13 @@
 {>"layout" /}
 
 {<body}
-   {#jiralogs3}
+   {#app_tokens}
        <div class="container">
-          <h4>{issuesummary} 
+          <h4>{app_tokens} 
              <button class="btn btn-default pull-right">
                 Views
              </button>
           </h4>
        </div>
-   {/jiralogs3}
+   {/app_tokens}
 {/body}

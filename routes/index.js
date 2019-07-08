@@ -5,7 +5,7 @@ var pg = require('pg');
 const config = {
   user:'postgres',
   database:'mike',
-  password:'mar20052019$',
+  password:'euc2019!',
   port: 5432,
   max: 10,
   idleTimeoutMillis: 3000,
@@ -20,13 +20,13 @@ router.get('/', function(req, res){
     if(err) {
       return console.error('error fetching client from pool' + err);
     }else{
-    client.query('SELECT * FROM jiralogs3 WHERE id = 500', function(err, result) {
+    client.query('SELECT * FROM app_tokens WHERE id = 10', function(err, result) {
 
       if(err){
-        return console.error('error runing query', err);
         res.status(400).send(err);
+        return console.error('error runing query', err);
       }
-      res.render('index', { jiralogs3 : result.rows });
+      res.render('index', { app_tokens : result.rows });
         done();
 
     });
@@ -42,8 +42,8 @@ router.get('/description', function(req, res){
     client.query('SELECT * FROM jiralogs3 WHERE id = 10', function(err, result) {
 
       if(err){
-        return console.error('error runing query', err);
         res.status(400).send(err);
+        return console.error('error runing query', err);
       }
       res.render('index', {jiralogs3: result.rows});
         done();
